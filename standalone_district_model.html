@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Integrated District Model (20-Acre AEZ)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    html, body {
+      width: 1024px;
+      height: 576px;
+      overflow: hidden;
+      background-color: #fdfae1;
+      font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    .slide-wrapper {
+      width: 1024px;
+      height: 576px;
+      position: relative;
+      background-color: #fdfae1;
+      overflow: hidden;
+    }
+    .text-column {
+      position: absolute;
+      left: 52px;
+      top: 92px;
+      width: 334px;
+      z-index: 10;
+    }
+    .title {
+      font-size: 47px;
+      font-weight: 900;
+      line-height: 1.02;
+      letter-spacing: -0.03em;
+      margin: 0 0 16px 0;
+    }
+    .title-dark {
+      color: #0b1426;
+      display: block;
+    }
+    .title-gold {
+      color: #c88b1f;
+      display: block;
+      margin-top: 3px;
+    }
+    .accent-bar {
+      width: 74px;
+      height: 5.5px;
+      border-radius: 9999px;
+      background: linear-gradient(90deg, #fd8804 0%, #fc9a08 30%, #cb9c17 48%, #388e2e 72%, #067430 100%);
+      margin-bottom: 22px;
+    }
+    .body-paragraph {
+      font-size: 15.2px;
+      line-height: 1.44;
+      color: #171d2b;
+      font-weight: 500;
+      letter-spacing: -0.012em;
+      margin-bottom: 18px;
+    }
+    .body-paragraph:last-child {
+      margin-bottom: 0;
+    }
+    .highlight-green {
+      color: #067430;
+      font-weight: 800;
+    }
+    .visual-column {
+      position: absolute;
+      left: 375px;
+      top: 66px;
+      width: 636px;
+      height: 462px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 5;
+    }
+    .pie-image {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  </style>
+</head>
+<body>
+  <div class="slide-wrapper">
+    <div class="text-column">
+      <h1 class="title">
+        <span class="title-dark">Integrated</span>
+        <span class="title-dark">District Model</span>
+        <span class="title-gold">(20&#8209;Acre AEZ)</span>
+      </h1>
+      <div class="accent-bar"></div>
+      <p class="body-paragraph">
+        Within a single DSMS, the operational model of SAFE Mission has been designed as a <strong class="highlight-green">20&#8209;acre integrated AEZ architecture</strong>. This is primarily composed of four operational zones.
+      </p>
+      <p class="body-paragraph">
+        Together, these four zones combine <strong class="highlight-green">production + post-harvest + processing + trade + leasing + animal husbandry + export ecosystem</strong> into a single district-level cooperative asset structure.
+      </p>
+    </div>
+    <div class="visual-column">
+      <img class="pie-image" src="src/assets/safemissionpiechart.png" alt="Integrated District Model (20-Acre AEZ)">
+    </div>
+  </div>
+</body>
+</html>
